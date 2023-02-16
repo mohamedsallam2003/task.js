@@ -1,0 +1,84 @@
+body{
+  
+    background: no-repeat linear-gradient(rgb(233 19 54 / 84%),rgb(211 48 126 / 99%));
+    height: 687px;
+    font-family: sans-serif;
+}
+
+.list{
+    background-color: white;
+    
+    width: 550px;
+    margin: auto;
+    padding: 25px  0px 48px;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+input{
+    width: 470px;
+    height: 40px;
+    border: none;
+    font-size: 20px;
+    padding-left: 15px;
+}
+.btn{
+    height: 40px;
+    margin: 0%;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    color: rgb(234, 0, 255);
+    
+}
+.head{
+    background-color: white;
+    margin: 20px auto;
+    width: 550px;
+}
+.section{
+    
+    border-bottom: 2px rgb(177, 177, 247) solid;
+    width: 80%;
+    margin: auto;
+    position: relative; 
+    padding: 5px 0px;
+    
+   
+    
+}  
+.text{
+    margin-left:15px ;
+    font-size: 19px;
+}
+.delete{
+    background-color: rgb(219, 4, 4);
+    height: 24px;
+    width: 20px; 
+    margin:  10px 10px 10px 0px ;
+    border: none;
+    color: white;
+}
+.check_mark{
+    width: 13px;
+    position: absolute;
+    margin: .5px 0 0 -5px;
+}
+.checked{
+    text-decoration: line-through;
+    color: rgb(227, 7, 7);
+}
+button,.check_mark:hover{
+    cursor: pointer;
+
+}
+.clear{
+    float: right;
+    margin-right: 54px;
+    margin-top: 15px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 19px;
+    color: rgb(114, 96, 96);
+}
